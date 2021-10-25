@@ -18,7 +18,9 @@
     "gulp-sass": "^5.0.0",
     "sass": "^1.43.3"
   },
-  "dependencies": {
-    "latest": "^0.2.0"
-  }
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ]
 }

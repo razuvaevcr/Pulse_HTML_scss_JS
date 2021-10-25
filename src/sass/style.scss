@@ -4,8 +4,14 @@
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
 
-h1 {
-    font-size: 150px;
-    font-weight: 700;
-    color: red;
+.container {
+    max-width: 950px;
+    margin: 0 auto;
 }
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/titles';
+@import 'blocks/consultation';
+@import 'blocks/forms';
