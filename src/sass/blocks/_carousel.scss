@@ -28,9 +28,9 @@
         list-style: none;   
         button {
             font-size: 0px;
-            width: 12px;
-            height: 12px;
-            border-radius: 100%;
+            width: 20px;
+            height: 3px;
+            padding: 0;
             background-color: rgba(108, 108, 108, 0.5);
             outline: none;
             border: none;
@@ -39,5 +39,8 @@
     }
     .slick-active button {
         background-color: $main-color;
-    }
+        width: 25px;
+        height: 3px;
+        transition: 1.2s all;
+    } 
 }
