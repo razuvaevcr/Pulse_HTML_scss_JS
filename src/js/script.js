@@ -29,4 +29,24 @@ $(document).ready(function(){
 
     toggleClass('.catalog-item__link');
     toggleClass('.catalog-item__back');
+
+    //Modal
+
+    $('[data-modal=consultation]').on('click', function() {
+        $('.overlay, #consultation').fadeIn('slow');
+    });
+    $('.overlay, modal__close').on('click', function() {
+        $('.overlay, #consultation, #thanks, #order').fadeOut('slow');
+    });
+
+    $('.btn_mini').each(function(i) {
+        $(this).on('click', function() {
+            $('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text());/* получаем заголовок и записываем его в модальное окно */
+            $('.overlay, #order').fadeIn('slow'); /* показываем модальное окно */
+        })
+    })
+
+
+
+
 });

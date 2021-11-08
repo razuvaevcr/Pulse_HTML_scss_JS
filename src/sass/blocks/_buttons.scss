@@ -10,6 +10,9 @@
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s all;
+    &:focus {
+        outline: none;
+    }
     &:hover {
         box-shadow: 3px 3px 20px $main-color;
     }
