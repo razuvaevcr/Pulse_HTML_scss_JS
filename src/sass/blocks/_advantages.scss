@@ -19,7 +19,7 @@
         width: 70px;
         height: 70px;
         &_animated {
-            animation-name: heartbeat 1.5s ease infinite;
+            animation: heartbeat 1.5s ease infinite;
         }
     }
     &__subheader {
