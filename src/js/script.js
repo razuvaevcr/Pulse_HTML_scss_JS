@@ -106,7 +106,11 @@ $(document).ready(function(){
         } else {
             $('.pageup').fadeOut();
         }
-    })
+    });
+
+    // Animation
+
+    new WOW().init();
 
 
 });

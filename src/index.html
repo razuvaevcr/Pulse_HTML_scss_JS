@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -74,7 +75,7 @@
                     </div>
                 </div>
                 <div class="advantages__item">
-                    <img class="advantages__img" src="icons/heart.png" alt="heart"></img>
+                    <img class="advantages__img advantages__img_animated" src="icons/heart.png" alt="heart"></img>
                     <div class="advantages__subheader">Заботимся о здоровье</div>
                     <div class="advantages__text">Мы работаем для того, 
                         чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
@@ -402,7 +403,7 @@
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
 
-            <div class="review__item">
+            <div class="review__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/review/avatar_1.jpg" alt="avatar" class="review__photo">
                 <div class="review__text">
                     <div class="review__name">Ирина Иванченко</div>
@@ -420,7 +421,7 @@
 
             <hr class="review__devider">
 
-            <div class="review__item">
+            <div class="review__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/review/avatar_2.jpg" alt="avatar" class="review__photo">
                 <div class="review__text">
                     <div class="review__name">Иван Сёмочкин</div>
@@ -436,7 +437,7 @@
 
             <hr class="review__devider">
 
-            <div class="review__item">
+            <div class="review__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/review/avatar_3.jpg" alt="avatar" class="review__photo">
                 <div class="review__text">
                     <div class="review__name">Юлия Дашкина</div>
@@ -509,8 +510,9 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="js/script.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

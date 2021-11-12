@@ -18,6 +18,9 @@
     &__img {
         width: 70px;
         height: 70px;
+        &_animated {
+            animation-name: heartbeat 1.5s ease infinite;
+        }
     }
     &__subheader {
         margin-top: 38px;
